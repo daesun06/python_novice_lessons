@@ -89,6 +89,21 @@ def nameCheck(name: str):
 HW : 
 54-65 page in python for kinds.
 
+1. What is an if statement in python ? Can u wrtie an example that determines a print statement based on age ? 
+
+If is a programming construct that allows to program decisions. 
+
+```python
+age=35
+if age > 50: 
+    print('You are to old.')
+else:
+    print('Hello kid')
+```
+
+# HW addition, read the 54-65, and write at least 1 sentence per section. 
+
+
 ### Cycles 
 
 HW: 
@@ -101,4 +116,15 @@ And because of this you can draw shapes like a: square, triangle and other basic
 
 With this command the turtle should move foward.
 
-## Binary search and Complexity 
+1. What is a cycle ? 
+
+Cycle is a programming construct that allows to loop through instructions. Write an example ?
+
+range -> range(0, 2) -> [0, 1, 2)
+
+```python
+for digit in range(0, 5):
+    print('Hello world')
+```
+
+# HW addition, read the 68-79, and write at least 1 sentence per section. 
