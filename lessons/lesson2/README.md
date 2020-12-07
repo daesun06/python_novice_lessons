@@ -94,4 +94,11 @@ HW :
 HW: 
 68 - 79 - read and document in this file if needed.
 
+A turtle in python is sort of like a turtle in real life.  A turtle is a way to import a module.  You can set a track to the turtle to move. 
+And because of this you can draw shapes like a: square, triangle and other basic shapes.
+
+     t.foward(50)
+
+With this command the turtle should move foward.
+
 ## Binary search and Complexity 
