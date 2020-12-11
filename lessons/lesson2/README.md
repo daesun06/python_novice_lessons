@@ -103,18 +103,23 @@ else:
 
 # HW addition, read the 54-65, and write at least 1 sentence per section. 
 
+1. What is an If statement?
+
+An If statement is made up the If keyword, followed by a condition and a colon.
+
+It should be like this:
+
+```python
+age=26
+if age > 20:
+    print('You are to old')
+```
+
 
 ### Cycles 
 
 HW: 
 68 - 79 - read and document in this file if needed.
-
-A turtle in python is sort of like a turtle in real life.  A turtle is a way to import a module.  You can set a track to the turtle to move. 
-And because of this you can draw shapes like a: square, triangle and other basic shapes.
-
-     t.foward(50)
-
-With this command the turtle should move foward.
 
 1. What is a cycle ? 
 
@@ -128,3 +133,17 @@ for digit in range(0, 5):
 ```
 
 # HW addition, read the 68-79, and write at least 1 sentence per section. 
+
+1. What is a loop?
+
+A loop is a programmong construct, that repeats a command 2 or more times.
+
+2. How do you programm a loop?
+
+To print "Hello world: 7 times you need to do this:
+
+```python
+for x in range(0, 7):
+        print('Hello world')
+
+```  
