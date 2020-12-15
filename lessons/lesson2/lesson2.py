@@ -45,41 +45,87 @@ print(section_5_solution_3(1250))
 print(section_5_solution_3(5001))
 
 
-# def section_5_solution_4():
+def section_5_solution_4(ninjas: int):
     # Write your solution here
 
     # ninjas=16
-    # if ninjas < 30:
+    # if ninjas < 30 or ninjas < 50:
     #     print("I can take them!")
     # elif:
     #     print("It will be hard, but I can take them.")
 
+    if ninjas < 10:
+        print("Thats too many!")
+    elif ninjas < 30:
+        print("It'll be a strugle bla bla")
+    elif ninjas < 50:
+        print("I can fight those ninjas!")
+     
+section_5_solution_4(48) # Thats too many
+section_5_solution_4(24) # Itll be a struggle
+section_5_solution_4(6) # I can fight those ninjas
 
-# def section_6_solution_1():
-#     # Write your solution here
+def section_6_solution_1():
+    # Write your solution here
+    for i in range(0,20):
+        print(i)
+        if i < 9:
+            break
 
-#     #I think it will break.
+section_6_solution_1()
 
-# def section_6_solution_2():
-#     # Write your solution here
+def section_6_solution_2(age: int):
+    # Write your solution here
 
-#     #I don't understand what to do after 
+    #I don't understand what to do after 
+    is_even = (age % 2 == 0)  # True 
+    for number in range(1, age + 1):
+        # number = 1 
+        number_is_even = (number % 2 == 0) # False 
+        if is_even:
+            # print all even    
+            if number_is_even:
+                print(number)
+        else:
+            # print all odd
+            if not number_is_even:
+                print(number)
 
-#     for number in range(0, 10)
+section_6_solution_2(10) # 2 4 6 8 10 
+section_6_solution_2(11) # 1 3 5 7 9 11
 
-# def section_6_solution_3():
-#     # Write your solution here
+# if {condition} => always returns Boolean :
+# if will execute if condition == True 
 
-#     ingrediants=['salad', 'tomato', 'cheese', 'meat', 'bread']
-#     for d in ingrediants:
-#         print(d)
+def section_6_solution_3():
+    # Write your solution here
 
-# def section_6_solution_4():
-#     # Write your solution here
+    ingredients=['salad', 'tomato', 'cheese', 'meat', 'bread']
+    
+    # print(ingredients[2])
+    # Solution 1 
+    # counter = 0
+    # for d in ingredients:
+    #     print(counter, d)
+    #     counter = counter + 1
 
-#     I didnt understand the puzzle.
+    # Solution 2 , optimized
+    for i in range(0, len(ingredients)):
+        print(i, ingredients[i])
 
-#     # question 1 : 
+section_6_solution_3()
+
+def section_6_solution_4(earth_weight: int):
+    # Write your solution here
+
+    counter = 0
+    for w in range(0, 15):
+        moon_weigth = (earth_weight + counter) * 0.165
+        counter = counter + 1 
+        print(moon_weigth)  
+            
+ 
+section_6_solution_4(47)
 
 
 # section_6_solution_1()
